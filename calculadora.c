@@ -8,12 +8,12 @@ int main (int argc, char *argv[]){
 	opcao=1;
 
 	while(opcao==1){
-		printf("Qual operacao voce deseja fazer \n Divisao:1 \n Multiplicacao:2 \n Adicao:3 \n Subtracao:4");
-		scanf("%d", operacao);
+		printf("Qual operacao voce deseja fazer \n Divisao:1 \n Multiplicacao:2 \n Adicao:3 \n Subtracao:4 \n");
+		scanf("%d", &operacao);
 		printf("Digite um numero:");
-		scanf("%f" , numero1);
+		scanf("%f" , &numero1);
 		printf("Digite outro numero:");
-		scanf ("%f", numero2);
+		scanf ("%f", &numero2);
 
 		switch(operacao){
 			case 1:
@@ -30,9 +30,9 @@ int main (int argc, char *argv[]){
 				total = numero1 - numero2;
 				break;
 		}
-		printf("Total da Sua operacao: %.2f", total);
-		printf("Se quiser encerrar digite 0,caso queira continuar digite 1");
-		scanf("%d", opcao);
+		printf("Total da Sua operacao: %.2f \n", total);
+		printf("Se quiser encerrar digite 0,caso queira continuar digite 1:");
+		scanf("%d", &opcao);
 	}
 	return 0;
 }
