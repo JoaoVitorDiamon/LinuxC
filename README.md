@@ -1,1 +1,0 @@
-Calculadora Subida pelo Linux
