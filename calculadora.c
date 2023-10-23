@@ -23,7 +23,7 @@ int main (int argc, char *argv[]){
 			case 2:
 				total = numero1 * numero2;
 				break;
-			case 3:
+			case 3:	
 				total = numero1 + numero2;
 				break;
 			case 4:
@@ -31,7 +31,7 @@ int main (int argc, char *argv[]){
 				break;
 		}
 		printf("Total da Sua operacao: %.2f \n", total);
-		printf("Se quiser encerrar digite 0,caso queira continuar digite 1:");
+		printf("\n Se quiser encerrar digite 0,caso queira continuar digite 1:");
 		scanf("%d", &opcao);
 	}
 	return 0;
